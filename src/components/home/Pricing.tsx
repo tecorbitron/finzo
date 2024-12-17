@@ -6,16 +6,16 @@ const Pricing = () => {
         <section>
             <div className="max-w-screen-xl m-auto px-4 py-20 text-customBlack">
                 <div className="text-center">
-                    <div className=" bg-[#CCE8C9] text-primary-colour hover:bg-primary-colour hover:text-white px-4 py-2 rounded-md w-fit mx-auto my-4 transition">
+                    <p className=" bg-[#CCE8C9] text-primary-colour hover:bg-primary-colour hover:text-white px-4 py-2 rounded-md w-fit mx-auto my-4 transition">
                         PRICING
-                    </div>
+                    </p>
                     <h3 className='text-3xl md:text-5xl mb-5 font-semibold text-custom-black-colour'>Plans for every budget</h3>
                     <p className='max-w-2xl m-auto text-lg text-secondary-colour'>Whether you’re a small business, or a large corporation, we have a plan that’s right for you.
                     </p>
                 </div>
 
                 <div className="w-full flex flex-col md:flex-row justify-between items-center gap-6 py-16">
-                    <div className="w-full md:w-[48%] text-secondary-colour rounded-[40px] p-8">
+                    <div className="w-full md:w-[48%] text-secondary-colour rounded-3xl p-8 shadow-md">
                         <h3 className='text-2xl font-semibold mb-2'>Personal</h3>
                         <p className='my-4'>Built-in budgeting and get more from your money with our Standard account.</p>
                         <p className='text-5xl font-medium my-5'>$0<span className='text-base font-normal'>/Month</span> </p>
@@ -23,7 +23,7 @@ const Pricing = () => {
                             Try for free
                         </button>
                     </div>
-                    <div className="flex flex-col sm:flex-row w-full md:w-[96%] bg-primary-colour text-white rounded-[30px]">
+                    <div className="flex flex-col sm:flex-row w-full md:w-[96%] bg-primary-colour text-white rounded-3xl">
                         <div className="w-full p-6 border-b sm:border-r border-white">
                             <h3 className='text-2xl font-semibold mb-2'>Business</h3>
                             <p className='my-4'>Give your everyday finances a boost. Get more out of your money for less.</p>

@@ -32,7 +32,7 @@ const FAQ = () => {
 
     return (
         <div className=" bg-white">
-            <div className="flex flex-col items-center py-20 p-6 max-w-screen-xl mx-auto">
+            <div className="flex flex-col items-center py-10 p-6 max-w-screen-xl mx-auto">
                 <h2 className="text-3xl md:text-4xl font-medium mb-2 ">FAQ</h2>
                 <div className="flex flex-col md:flex-row w-full max-w-screen-lg">
                     <div className="w-full mt-16 px-4">

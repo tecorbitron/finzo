@@ -6,7 +6,7 @@ import logo from '@/assets/logo-light.webp';
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary-colour text-[#FFFFFFD4] py-10">
+    <footer className="bg-primary-colour text-[#FFFFFFD4] py-10">
       <div className="flex flex-wrap justify-between gap-4 px-4 max-w-screen-xl m-auto">
         {/* Platform Section */}
         <div className="w-2/5 md:w-fit mb-6 md:mb-0">
