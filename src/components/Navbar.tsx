@@ -20,14 +20,40 @@ const Navbar = () => {
               width={120} height={120} className='object-center object-cover' />
           </Link>
           <div className="hidden md:flex space-x-8">
-            <Link href="/" className="border-primary-colour hover:border-b-2 h-6">Home</Link>
-            <Link href="/pricing" className="border-primary-colour hover:border-b-2 h-6">Pricing</Link>
-            <Link href="/payments" className="border-primary-colour hover:border-b-2 h-6">Payments</Link>
-            <Link href="/marketplace" className="border-primary-colour hover:border-b-2 h-6">Marketplace</Link>
+            <Link
+              href="/"
+              className="relative hover:border-primary-colour h-6 before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-[2px] before:bg-primary-colour before:transition-all before:duration-300 hover:before:w-full"
+            >
+              Home
+            </Link>
+            <Link
+              href="/pricing"
+              className="relative hover:border-primary-colour h-6 before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-[2px] before:bg-primary-colour before:transition-all before:duration-300 hover:before:w-full"
+            >
+              Pricing
+            </Link>
+            <Link
+              href="/payments"
+              className="relative hover:border-primary-colour h-6 before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-[2px] before:bg-primary-colour before:transition-all before:duration-300 hover:before:w-full"
+            >
+              Payments
+            </Link>
+            <Link
+              href="/marketplace"
+              className="relative hover:border-primary-colour h-6 before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-[2px] before:bg-primary-colour before:transition-all before:duration-300 hover:before:w-full"
+            >
+              Marketplace
+            </Link>
           </div>
+
         </div>
         <div className="hidden md:flex space-x-8 items-center">
-          <Link href="/login" className="hover:text-custom-black-colour">Login</Link>
+          <Link
+            href="#"
+            className="relative hover:border-primary-colour h-6 before:absolute before:-bottom-0.5 before:left-0 before:w-0 before:h-[2px] before:bg-primary-colour before:transition-all before:duration-300 hover:before:w-full"
+          >
+            Login
+          </Link>
           <Link href="/sign-up" className="bg-primary-colour text-white px-4 py-2 rounded-xl font-medium">Sign Up</Link>
         </div>
         <div className="flex md:hidden items-center gap-5">

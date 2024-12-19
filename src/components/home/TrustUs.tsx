@@ -6,7 +6,7 @@ import bgImage from '@/assets/Finzo-CTA-1.webp'
 
 const TrustUs = () => {
     return (
-        <section className='py-10 md:py-20 px-4'>
+        <section className='py-16 px-4'>
             <div className="relative flex flex-col md:flex-row justify-between gap-6 max-w-screen-xl m-auto bg-[#E0F1DF] rounded-3xl md:py-20 bg-cover bg-center bg-no-repeat overflow-hidden">
                 <Image src={bgImage} alt='payment-image' height={300} width={450} className='absolute object-cover right-16 -top-40 rotate-45 z-0 opacity-40' />
                 <div className="flex flex-col justify-evenly gap-6 md:w-[48%] p-4 z-10">

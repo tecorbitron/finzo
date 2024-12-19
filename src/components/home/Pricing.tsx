@@ -4,7 +4,7 @@ import { Check } from 'lucide-react'
 const Pricing = () => {
     return (
         <section>
-            <div className="max-w-screen-xl m-auto px-4 py-20 text-customBlack">
+            <div className="max-w-screen-xl m-auto px-4 py-16 text-customBlack">
                 <div className="text-center">
                     <p className=" bg-[#CCE8C9] text-primary-colour hover:bg-primary-colour hover:text-white px-4 py-2 rounded-md w-fit mx-auto my-4 transition">
                         PRICING

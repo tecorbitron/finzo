@@ -6,9 +6,9 @@ import CurrencyImage2 from '@/assets/finzo-hero-image2.webp'
 const HeroSection = () => {
   return (
     <section className='px-4'>
-      <div className="flex flex-col md:flex-row justify-between gap-6 max-w-screen-xl m-auto rounded-3xl md:py-20 ">
+      <div className="flex flex-col md:flex-row justify-between gap-6 max-w-screen-xl m-auto rounded-3xl md:pb-20 md:pt-10 ">
         <div className="flex flex-col justify-evenly gap-6 md:w-[48%] p-4 z-10">
-          <p className="text-sm bg-[#CCE8C9] text-primary-colour hover:bg-primary-colour hover:text-white px-4 py-2 rounded-md w-fit  my-4 transition">MODERN BANK</p>
+          <p className="text-sm bg-[#CCE8C9] text-primary-colour hover:bg-primary-colour hover:text-white px-4 py-2 rounded-md w-fit transition">MODERN BANK</p>
           <h2 className='text-custom-black-colour text-4xl md:text-6xl font-semibold'>We are building future banking just for you.</h2>
           <p className='text-secondary-colour text-lg'>Easy and fast international business account that saves you money wherever you want to use it, everywhere.</p>
           <div className="flex flex-wrap gap-6">

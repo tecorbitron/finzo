@@ -5,6 +5,7 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
+import { ChevronDown } from "lucide-react";
 
 
 const faqs = [
@@ -32,7 +33,7 @@ const FAQ = () => {
 
     return (
         <div className=" bg-white">
-            <div className="flex flex-col items-center py-10 p-6 max-w-screen-xl mx-auto">
+            <div className="flex flex-col items-center py-16 p-6 max-w-screen-xl mx-auto">
                 <h2 className="text-3xl md:text-4xl font-medium mb-2 ">FAQ</h2>
                 <div className="flex flex-col md:flex-row w-full max-w-screen-lg">
                     <div className="w-full mt-16 px-4">
@@ -40,7 +41,9 @@ const FAQ = () => {
                             {faqs.map((faq, index) => (
                                 <div key={index} className="mb-4">
                                     <AccordionItem value={"item" + index}>
-                                        <AccordionTrigger>{faq.question}</AccordionTrigger>
+                                        <AccordionTrigger>{faq.question}
+                                        <ChevronDown className="h-4 w-4 shrink-0 transition-transform duration-200" />
+                                        </AccordionTrigger>
                                         <AccordionContent>{faq.answer}</AccordionContent>
                                     </AccordionItem>
                                 </div>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Statistics = () => {
     return (
-        <section className='pt-20 px-4'>
+        <section className='py-16 px-4'>
             <div className="relative overflow-hidden flex justify-around gap-6 flex-wrap text-white bg-primary-colour max-w-screen-xl m-auto py-28 rounded-3xl p-8 text-center">
                 <div className="md:-w[30%]">
                     <h2 className='text-6xl font-bold mb-4'>75K+</h2>
